@@ -20,6 +20,9 @@ Welcome to the Simon Game! This is a simple and fun memory game where you have t
 4. If you get the sequence correct, you'll move to the next level.
 5. If you make a mistake, the game is over. Press any key to restart.
 
+## Play the Game
+You can play the game [here](https://niraj-kr-29.github.io/Simon-Game/).
+
 ## Screenshots
 ![Start Screen](images/start_screen.png)
 *Start screen of the game*
