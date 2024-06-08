@@ -71,6 +71,7 @@ for (const button of allButtons) {
     });
 
     button.addEventListener("touchstart", function(e) {
+        e.preventDefault();
         if (playGame) {
             const userChosenColor = e.target.id;
             userArray.push(userChosenColor);
