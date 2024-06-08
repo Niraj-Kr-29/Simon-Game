@@ -13,10 +13,6 @@ let Level = 1; // Variable to track the current level
 document.addEventListener("keypress", function (e) {
     startGame(); // Start the game when any key is pressed
 });
-heading_text.addEventListener("click touchstart", function (e) {
-    startGame(); // Start the game when any key is pressed
-});
-
 function startGame() {
     playGame = true; // Set game state to playing
     actualArray = []; // Reset the game's sequence array
@@ -59,7 +55,7 @@ function checkAnswer(currentLevel) {
 
 // Add event listeners to all buttons
 for (const button of allButtons) {
-    button.addEventListener("click touchstart", function (e) {
+    button.addEventListener("click", function (e) {
         if (playGame) { // Only register clicks if the game is in play
             const userChosenColor = e.target.id; // Get the ID of the clicked button
             userArray.push(userChosenColor); // Add the chosen color to the user's input array
