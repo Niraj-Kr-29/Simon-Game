@@ -79,7 +79,7 @@ for (const button of allButtons) {
             playSound(userChosenColor);
             checkAnswer(userArray.length - 1);
         }
-    });
+    }, { passive: false });
 }
 
 // Function to play sound corresponding to a given color
