@@ -15,7 +15,7 @@ document.addEventListener("keypress", function (e) {
 });
 
 document.addEventListener("touchstart", function(e) {
-    startGame();
+    startGame(); // Start the game when play screen is touched
 })
 
 function startGame() {
@@ -58,7 +58,7 @@ function checkAnswer(currentLevel) {
     }
 }
 
-// Add event listeners to all buttons
+// Add event listeners to all buttons and touches
 for (const button of allButtons) {
     button.addEventListener("click", function(e) {
         if (playGame) {
