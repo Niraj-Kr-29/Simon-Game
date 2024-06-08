@@ -4,6 +4,7 @@ Welcome to the Simon Game! This is a simple and fun memory game where you have t
 
 ## Features
 - Clean and responsive UI
+- Mobile Optimised (touch events are handled correctly)
 - Colorful animations and sounds
 - Increasing difficulty with each level
 - Game Over and restart functionality
