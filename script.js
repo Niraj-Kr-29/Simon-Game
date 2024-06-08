@@ -13,6 +13,9 @@ let Level = 1; // Variable to track the current level
 document.addEventListener("keypress", function (e) {
     startGame(); // Start the game when any key is pressed
 });
+heading_text.addEventListener("click", function (e) {
+    startGame(); // Start the game when any key is pressed
+});
 
 function startGame() {
     playGame = true; // Set game state to playing
