@@ -16,7 +16,7 @@ document.addEventListener("keypress", function (e) {
 
 document.addEventListener("touchstart", function(e) {
     startGame();
-})
+}, { once: true })
 
 function startGame() {
     playGame = true; // Set game state to playing
